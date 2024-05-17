@@ -1,0 +1,169 @@
+/*CSS Reset and General Styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: helvetica, sans-serif;
+    line-height: 1.5;
+    background: linear-gradient(#6d9773, #fff);
+    color: #0c3b23;
+    min-height: 100vh;
+}
+
+form {
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*Header Area Styles*/
+header {
+    background-color: #0c3b2e;
+    color: #fff;
+}
+
+h1 {
+    padding: 0.5rem 0;
+}
+
+nav ul {
+    text-align: right;
+    padding: 0 1rem  0.5rem 0;
+}
+
+nav li {
+    font-size: 1.5rem;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover{
+    border-bottom: solid 4px #6d9773;
+}
+
+nav a:active {
+    border-bottom: solid 4px #6d9773;
+}
+
+/*Main Content Area Styles*/
+main {
+    background-color: white;
+    width: 90%;
+    max-width: 1000px;
+    align-items: center;
+    padding: 1rem 0 1rem 1rem;
+}
+
+h2 {
+    color: #ffba00;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 10px 6px -6px #6d9773;
+}
+
+/*Footer Area Styles*/
+footer {
+    background-color: #0C3B2E;
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.font-sm {
+    font-size: 0.8rem;
+}
+
+/*Home Page Styles*/
+main li {
+    background-image: url('/images/logo.png');
+    background-repeat: no-repeat;
+    background-size: 1em 1em;
+    padding-left: 1.5em;
+    background-position: 0 0.2em;
+}
+
+.indent-right {
+    padding-left: 1em;
+}
+
+main a {
+    color: #6d9773;
+}
+
+main a:hover {
+    border-bottom: solid 2px #6d9773;
+}
+
+main a:active {
+    border-bottom: solid 2px #6d9773;
+}
+
+/*Menu Page Styles*/
+table {
+    width: 50%;
+    border: solid 3px #6d9773;
+    border-collapse: collapse;
+}
+
+thead tr {
+    background-color: #6d9773;
+    color: white;
+
+}
+
+th, td {
+    text-align: center;
+    padding: 0.5em;
+}
+
+tr:nth-child(4) {
+    border-bottom: solid 3px #6d9773;
+}
+
+tr:nth-child(8) {
+    border-bottom: solid 3px #6d9773;
+}
+
+caption {
+    text-align: right;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*Reservations Page Styles*/
+textarea, [type="text"], [type="email"], [type="tel"], [type="number"], [type="datetime-local"] {
+    border: solid 2px #0C3B2E;
+    margin-bottom: 0.5rem;
+    width: 60%;
+    padding: 0.6em;
+}
+
+textarea {
+    height: 8em;
+}
+
+[type="submit"] {
+    background-color: #0C3B2E;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
